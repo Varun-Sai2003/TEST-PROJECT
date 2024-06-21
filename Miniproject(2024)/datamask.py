@@ -32,10 +32,10 @@ def mask_phone(phone):
     logging.info(f'Masked phone: {phone} -> {masked_phone}')
     return masked_phone
 
-def mask_address(address):
-    masked_address = ''.join(random.choices(string.ascii_letters + string.digits + ' ', k=len(address)))
-    logging.info(f'Masked address: {address} -> {masked_address}')
-    return masked_address
+def mask_aadhar(aadhar):
+    masked_aadhar = 'XXXX-XXXX-' + aadhar[-4:]
+    logging.info(f'Masked aadhar: {aadhar} -> {masked_aadhar}')
+    return masked_aadhar
 
 def mask_credit_card(cc):
     masked_cc = 'XXXX-XXXX-XXXX-' + cc[-4:]
