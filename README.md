@@ -1,4 +1,3 @@
-use this command to run:
 
 # Data Masking Script
 
