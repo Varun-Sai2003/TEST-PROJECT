@@ -1,0 +1,23 @@
+2024-06-21 20:53:59,814 - INFO - Read data from data.xlsx
+2024-06-21 20:53:59,814 - INFO - Start masking column: name
+2024-06-21 20:53:59,814 - INFO - Masked name: Ashwin -> VEXYPY
+2024-06-21 20:53:59,814 - INFO - Finished masking column: name
+2024-06-21 20:53:59,814 - INFO - Start masking column: email
+2024-06-21 20:53:59,819 - INFO - Masked email: ashwind123@gmail.com -> 4600f8oxlq@gmail.com
+2024-06-21 20:53:59,819 - INFO - Finished masking column: email
+2024-06-21 20:53:59,819 - INFO - Start masking column: phone
+2024-06-21 20:53:59,819 - INFO - Masked phone: 9887665544 -> 8963707444
+2024-06-21 20:53:59,819 - INFO - Finished masking column: phone
+2024-06-21 20:53:59,819 - INFO - Start masking column: ssn
+2024-06-21 20:53:59,819 - INFO - Masked SSN: 8888-3333-3333-223 -> 073525616445300898
+2024-06-21 20:53:59,819 - INFO - Finished masking column: ssn
+2024-06-21 20:53:59,819 - INFO - Start masking column: credit_card
+2024-06-21 20:53:59,819 - INFO - Masked credit card: 1234777755556660 -> XXXX-XXXX-XXXX-6660
+2024-06-21 20:53:59,819 - INFO - Finished masking column: credit_card
+2024-06-21 20:53:59,819 - INFO - Start masking column: address
+2024-06-21 20:53:59,819 - INFO - Masked address: somewhere -> ACCmZrEXO
+2024-06-21 20:53:59,819 - INFO - Finished masking column: address
+2024-06-21 20:53:59,819 - INFO - Start masking column: date
+2024-06-21 20:53:59,819 - INFO - Masked date: 2008-07-21 -> 2009-05-09
+2024-06-21 20:53:59,819 - INFO - Finished masking column: date
+2024-06-21 20:53:59,851 - INFO - Written masked data to masked_data.xlsx
